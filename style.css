@@ -1,0 +1,70 @@
+body,html{ background-color:#edf1f7;:16px;padding:0;margin:0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+img{height:auto}
+a{text-decoration:none;}
+::-webkit-scrollbar {width: 15px;height: 10px;}
+::-webkit-scrollbar-track { background: var(--white); }
+::-webkit-scrollbar-thumb {background: hsla(219, 14%, 60%, 0.3);border: 2px solid white;}
+
+    /* navbar */
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#edf1f7;
+    align-items: center;
+}
+.btn1{
+    margin: 10px;
+    padding: 15px;
+    border-radius:20px;
+    background-color:#1a9df4;
+    color:#FFFFFF;
+    font-weight: 500;
+}
+.btn_inverse{
+    padding: 15px;
+    border-radius:20px;
+    background-color:#FFFFFF;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.1);
+}
+.btn_inverse i{
+    color:black;
+    height: 21px;
+}
+.call i{
+    font-size:20px;
+}
+.logo h2{
+    font-weight:400;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style-type: none;
+}
+.menu ul li a{
+    margin: 25px;
+    font-weight:300;
+}
+.menu a:hover{
+    color: #1a9df4;
+    transition: .4s linear;
+}
+
+.article{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+}
+.title_principal{
+    width: 370px;
+    margin-left: 25px;
+}
+.background{
+    height: 600px;
+    width: 650px;
+    object-fit: cover;
+    border-radius:25px;
+}
